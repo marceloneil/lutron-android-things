@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lowkey.lutron.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/toggle_living_chandelier"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Living Room Chandelier" />
+
+        <Button
+            android:id="@+id/toggle_living_lamps"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Living Room Lamps" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/toggle_kitchen_downlights"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kitchen Downlights" />
+
+        <Button
+            android:id="@+id/toggle_kitchen_cabinet"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kitchen Cabinet Lights" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/toggle_bedroom_lamps"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Bedroom Bedside Lights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/toggle_bathroom_vanity"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Bathroom Vanity" />
+    </LinearLayout>
+</LinearLayout>
